@@ -40,7 +40,7 @@ Cumbersome.
 With `rekwire`, just use the path from your root directory, no matter where you currently are:
 
 	var rekwire = require("rekwire")
-	  , Transaction = rekwrite("app/models/payments/transaction.js");
+	  , Transaction = rekwire("app/models/payments/transaction.js");
 	// simple
 
 #install

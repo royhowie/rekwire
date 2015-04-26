@@ -1,6 +1,6 @@
 {
   "name": "rekwire",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "a wrapper for `require` that removes the need for local paths",
   "main": "index.js",
   "scripts": {
