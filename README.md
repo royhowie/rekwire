@@ -37,7 +37,7 @@ Keeping track of `requires` can be annoying. If you're in `app/actions/payments.
 
 Cumbersome.
 
-With `rekwire`, just use the absolute path from your root directory, no matter where you currently are:
+With `rekwire`, just use the path from your root directory, no matter where you currently are:
 
 	var rekwire = require("rekwire")
 	  , Transaction = rekwrite("app/models/payments/transaction.js");
