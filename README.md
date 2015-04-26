@@ -31,7 +31,9 @@ Given the following directory structure:
 	├── package.json
 	└── server.js
 
-Keeping track of `requires` can be annoying. If you're in `app/actions/payments.js` and you need the `transaction.js` model, you need to use `var Transaction = require("../models/payments/transaction.js")`.
+Keeping track of `requires` can be annoying. If you're in `app/actions/payments.js` and you need the `transaction.js` model, you need to use
+
+	var Transaction = require("../models/payments/transaction.js")
 
 Cumbersome.
 
