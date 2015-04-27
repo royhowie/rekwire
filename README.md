@@ -35,14 +35,19 @@ Keeping track of `requires` can be annoying. If you're in `app/actions/payments.
 
 	var Transaction = require("../models/payments/transaction.js")
 
-Cumbersome.
+What if you're in `app/models/courses/tutoringSession.js`?
+
+	var Transaction = require("../payments/transaction.js");
+
+Figuring out all the different relative paths is annoying and cumbersome.
 
 With `rekwire`, just use the path from your root directory, no matter where you currently are:
 
 	var rekwire = require("rekwire")
 	  , Transaction = rekwire("app/models/payments/transaction.js");
-	// simple
+
+Simple.
 
 #install
 
-    npm i --save rekwire
+    npm install --save rekwire
